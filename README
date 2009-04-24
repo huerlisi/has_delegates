@@ -1,7 +1,7 @@
 HasDelegates
 ============
 
-Introduction goes here.
+http://sean-carley.blogspot.com/2006/09/activerecord-delegation-and-demeter.html
 
 
 Example
@@ -10,4 +10,6 @@ Example
 Example goes here.
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2006 Sean Carley <http://sean-carley.blogspot.com>
+Copyright (c) 2009 Simon Hürlimann <simon.huerlimann@cyt.ch>
+Released under the MIT license
