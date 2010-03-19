@@ -1,15 +1,16 @@
-HasDelegates
-============
+has_delegates
+=============
 
+Rails plugin providing VCard like contact and address models and helpers.
+
+Based on code described at
 http://sean-carley.blogspot.com/2006/09/activerecord-delegation-and-demeter.html
 
-
-Example
+License
 =======
 
-Example goes here.
-
-
 Copyright (c) 2006 Sean Carley <http://sean-carley.blogspot.com>
-Copyright (c) 2009 Simon Hürlimann <simon.huerlimann@cyt.ch>
-Released under the MIT license
+Copyright (c) 2009-2010 Simon Hürlimann <simon.huerlimann@cyt.ch>
+Copyright (c) 2009-2010 ZytoLabor <http://www.zyto-labor.com>
+
+Released under the MIT license.
