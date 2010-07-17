@@ -22,7 +22,7 @@ begin
     s.author = AUTHOR
     
     s.require_path = 'lib'
-    s.files = %w(MIT-LICENSE README Rakefile) + Dir.glob("{lib,test}/**/*")
+    s.files = %w(MIT-LICENSE README Rakefile) + Dir.glob("{lib,test,rails}/**/*")
     
     # Runtime dependencies: When installing has_delegates these will be checked if they are installed.
     # Will be offered to install these if they are not already installed.
