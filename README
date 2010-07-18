@@ -1,16 +1,43 @@
 has_delegates
 =============
 
-Rails plugin providing VCard like contact and address models and helpers.
+Rails plugin/gem providing enhanced sub-model delegation to models.
 
-Based on code described at
-http://sean-carley.blogspot.com/2006/09/activerecord-delegation-and-demeter.html
+This plugin implements all the small details to give you nice submodel
+delegation.
+
+Example
+=======
+
+There's two new class methods made available to ActiveRecord::Base:
+
+* belongs_to_delegate(delegate_id, options => {})
+* has_one_delegate(delegate_id, options = {})
+
+Use it like this:
+
+class Vcard < ActiveRecord::Base
+  has_one :address
+  has_one_delegate :address
+end
+
+You may now use all the attributes from the Address model in your Vcard
+records.
+
+The delegated to record will be created when one of it's attributes is
+written to. It will be saved when the original record is saved.
+
+It is possible to use more than one delegation per model.
 
 License
 =======
 
+Based on code described at
+http://sean-carley.blogspot.com/2006/09/activerecord-delegation-and-demeter.html
+
 Copyright (c) 2006 Sean Carley <http://sean-carley.blogspot.com>
 Copyright (c) 2009-2010 Simon Hürlimann <simon.huerlimann@cyt.ch>
+Copyright (c) 2010 CyT <http://www.cyt.ch>
 Copyright (c) 2009-2010 ZytoLabor <http://www.zyto-labor.com>
 
 Released under the MIT license.

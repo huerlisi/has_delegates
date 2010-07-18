@@ -7,7 +7,7 @@ begin
   GEM = "has_delegates"
   AUTHOR = "Simon Hürlimann"
   EMAIL = "simon.huerlimann@cyt.ch"
-  SUMMARY = "Rails plugin providing VCard like contact and address models and helpers."
+  SUMMARY = "Rails plugin/gem providing enhanced sub-model delegation to models."
   HOMEPAGE = "http://github.com/huerlisi/has_delegates/tree/master"
   
   gem 'jeweler', '>= 1.0.0'
