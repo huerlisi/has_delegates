@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Simon H\303\274rlimann"]
-  s.date = %q{2010-07-17}
-  s.description = %q{Rails plugin providing VCard like contact and address models and helpers.}
+  s.date = %q{2010-07-18}
+  s.description = %q{Rails plugin/gem providing enhanced sub-model delegation to models.}
   s.email = %q{simon.huerlimann@cyt.ch}
   s.extra_rdoc_files = [
     "README"
@@ -26,8 +26,8 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/huerlisi/has_delegates/tree/master}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Rails plugin providing VCard like contact and address models and helpers.}
+  s.rubygems_version = %q{1.3.6}
+  s.summary = %q{Rails plugin/gem providing enhanced sub-model delegation to models.}
   s.test_files = [
     "test/has_delegates_test.rb"
   ]
